@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A86C323D25EC13F9005F7B5A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A86C323C25EC13F9005F7B5A /* GoogleService-Info.plist */; };
 		A883063225EC098E002146C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A883063125EC098E002146C7 /* AppDelegate.swift */; };
 		A883063425EC098E002146C7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A883063325EC098E002146C7 /* SceneDelegate.swift */; };
 		A883063925EC098E002146C7 /* Opening.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A883063725EC098E002146C7 /* Opening.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A86C323C25EC13F9005F7B5A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../MicLockr Properties/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A883062E25EC098E002146C7 /* MicLockr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicLockr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A883063125EC098E002146C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A883063325EC098E002146C7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				A883064925EC09DB002146C7 /* Controllers */,
 				A883064625EC099B002146C7 /* Application */,
 				A883063F25EC098F002146C7 /* Info.plist */,
+				A86C323C25EC13F9005F7B5A /* GoogleService-Info.plist */,
 			);
 			path = MicLockr;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A883063E25EC098F002146C7 /* LaunchScreen.storyboard in Resources */,
+				A86C323D25EC13F9005F7B5A /* GoogleService-Info.plist in Resources */,
 				A883063B25EC098F002146C7 /* Assets.xcassets in Resources */,
 				A883063925EC098E002146C7 /* Opening.storyboard in Resources */,
 			);
